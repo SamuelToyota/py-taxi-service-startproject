@@ -1,20 +1,18 @@
-# Python
-*.pyc
+# Byte-compiled / optimized / DLL files
 __pycache__/
+*.py[cod]
+*$py.class
 
-# Django
-*.sqlite3
-*.log
+# Django stuff:
+db.sqlite3
+/staticfiles/
 media/
-
-# Virtual environments
-venv/
-ENV/
 
 # IDEs
 .idea/
 *.iml
+.vscode/
 
-# OS
-.DS_Store
-Thumbs.db
+# Environments
+env/
+venv/
